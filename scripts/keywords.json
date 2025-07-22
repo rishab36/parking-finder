@@ -1,0 +1,736 @@
+{
+  "pages": [
+    {
+      "filename": "parking-near-me.html",
+      "title": "Find Parking Near Me | Real-time Parking Spot Locator | ParkingFinder",
+      "content": "Find the nearest parking spots in your area with ParkingFinder. Get real-time availability, pricing, and directions to parking locations near you. Book parking in advance and save time. Features include free parking, paid parking, EV charging stations, and secure parking options.",
+      "keywords": [
+        "parking near me",
+        "find parking",
+        "nearest parking",
+        "parking spots",
+        "parking locations",
+        "parking availability",
+        "parking prices",
+        "book parking",
+        "free parking near me",
+        "paid parking near me",
+        "secure parking",
+        "parking app",
+        "parking finder",
+        "parking locator",
+        "parking navigation"
+      ],
+      "faq": [
+        {
+          "question": "How do I find parking near me?",
+          "answer": "Simply open ParkingFinder and allow location access. The app will show you all available parking spots near your current location, including both free and paid options."
+        },
+        {
+          "question": "Can I book parking in advance?",
+          "answer": "Yes, you can book parking spots in advance through our app. Select your desired location, choose a parking spot, and book instantly with our secure payment system."
+        },
+        {
+          "question": "Does ParkingFinder show EV charging stations?",
+          "answer": "Yes, ParkingFinder includes EV charging station locations. You can find charging points, check availability, and get real-time status updates for all major charging networks."
+        }
+      ],
+      "howTo": {
+        "title": "How to Find and Book Parking with ParkingFinder",
+        "description": "Learn how to find and book parking spots using ParkingFinder app",
+        "steps": [
+          {
+            "title": "Open the App",
+            "description": "Launch ParkingFinder on your device"
+          },
+          {
+            "title": "Allow Location Access",
+            "description": "Grant location permissions to find parking near you"
+          },
+          {
+            "title": "Select Parking Type",
+            "description": "Choose between free or paid parking options"
+          },
+          {
+            "title": "Book Your Spot",
+            "description": "Select a parking spot and book instantly"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "ev-charging-near-me.html",
+      "title": "EV Charging Stations Near Me | Find Electric Vehicle Charging Points | ParkingFinder",
+      "content": "Locate EV charging stations near you with ParkingFinder. Find real-time availability, charging rates, and compatible charging points for your electric vehicle. Plan your charging stops efficiently. Features include fast charging, DC charging, and Tesla superchargers.",
+      "keywords": [
+        "ev charging near me",
+        "electric vehicle charging",
+        "charging stations",
+        "ev charging points",
+        "fast charging",
+        "charging availability",
+        "charging rates",
+        "ev charging map",
+        "tesla charging",
+        "dc fast charging",
+        "charging station finder",
+        "ev charging app",
+        "charging point locator",
+        "charging station map",
+        "charging station availability"
+      ],
+      "faq": [
+        {
+          "question": "How do I find EV charging stations?",
+          "answer": "Open ParkingFinder and enable location services. The app will show you all nearby EV charging stations, including their availability, charging speeds, and compatibility with your vehicle."
+        },
+        {
+          "question": "What types of charging stations are available?",
+          "answer": "We show all types of charging stations including Level 1, Level 2, DC Fast Charging, and Tesla Superchargers. Each station's details include charging speed, connector types, and compatibility information."
+        },
+        {
+          "question": "Can I see real-time availability?",
+          "answer": "Yes, ParkingFinder provides real-time availability status for all charging stations. You can see which stations are currently in use, available, or out of service."
+        }
+      ],
+      "howTo": {
+        "title": "How to Find and Use EV Charging Stations",
+        "description": "Learn how to find and use electric vehicle charging stations with ParkingFinder",
+        "steps": [
+          {
+            "title": "Open the App",
+            "description": "Launch ParkingFinder and enable location services"
+          },
+          {
+            "title": "Select EV Charging",
+            "description": "Choose the EV charging option from the main menu"
+          },
+          {
+            "title": "View Charging Stations",
+            "description": "Browse the map to see all nearby charging stations"
+          },
+          {
+            "title": "Check Details",
+            "description": "View station details including availability, charging speed, and compatibility"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "public-parking-near-me.html",
+      "title": "Public Parking Near Me | ParkingFinder",
+      "content": "Locate public parking spaces near your location. Find municipal parking lots, public garages, and street parking with real-time availability and pricing information.",
+      "keywords": ["public parking near me", "municipal parking", "public parking lots", "public parking garages", "public parking spaces", "city parking"]
+    },
+    {
+      "filename": "parking-garage-near-me.html",
+      "title": "Parking Garage Near Me | ParkingFinder",
+      "content": "Find secure parking garages near your location. Multi-level parking facilities with 24/7 security, covered parking, and convenient access to your destination.",
+      "keywords": ["parking garage near me", "multi-level parking", "covered parking", "secure parking garage", "parking structure", "parking facility"]
+    },
+    {
+      "filename": "free-parking-near-me.html",
+      "title": "Free Parking Near Me | ParkingFinder",
+      "content": "Discover free parking spots near your location. Find complimentary parking spaces, free parking lots, and areas with no parking fees.",
+      "keywords": ["free parking near me", "complimentary parking", "no cost parking", "free parking spots", "free parking lots", "zero cost parking"]
+    },
+    {
+      "filename": "cheap-parking-near-me.html",
+      "title": "Cheap Parking Near Me | ParkingFinder",
+      "content": "Find affordable parking options near your location. Compare prices and find the cheapest parking spots, discounted rates, and budget-friendly parking solutions.",
+      "keywords": ["cheap parking near me", "affordable parking", "budget parking", "discounted parking", "low cost parking", "inexpensive parking"]
+    },
+    {
+      "filename": "24-hour-parking-near-me.html",
+      "title": "24 Hour Parking Near Me | ParkingFinder",
+      "content": "Locate 24-hour parking facilities near your location. Find parking spots that are open round the clock, perfect for overnight parking and extended stays.",
+      "keywords": ["24 hour parking near me", "overnight parking", "24/7 parking", "all day parking", "extended parking", "round the clock parking"]
+    },
+    {
+      "filename": "parking-spot-near-me.html",
+      "title": "Find Parking Spot Near Me | ParkingFinder",
+      "content": "Find available parking spots near your current location. Real-time parking spot finder with instant availability updates and easy navigation.",
+      "keywords": ["parking spot near me", "available parking spot", "find parking spot", "parking space finder", "parking spot locator", "parking spot search"]
+    },
+    {
+      "filename": "street-parking-near-me.html",
+      "title": "Street Parking Near Me | ParkingFinder",
+      "content": "Find street parking spaces near your location. Locate on-street parking spots, metered parking, and residential parking areas with real-time availability.",
+      "keywords": ["street parking near me", "on street parking", "metered parking", "curb parking", "roadside parking", "street side parking"]
+    },
+    {
+      "filename": "gas-station-near-me.html",
+      "title": "Gas Station Near Me | ParkingFinder",
+      "content": "Find the nearest gas stations with real-time fuel prices. Locate petrol pumps, diesel stations, and fuel stops near your current location.",
+      "keywords": ["gas station near me", "petrol pump near me", "fuel station near me", "gas near me", "fuel near me", "nearest gas station"]
+    },
+    {
+      "filename": "24-hour-gas-station.html",
+      "title": "24 Hour Gas Station Near Me | ParkingFinder",
+      "content": "Find gas stations that are open 24 hours. Locate fuel stations that operate round the clock for your convenience.",
+      "keywords": ["24 hour gas station", "24/7 gas station", "overnight gas station", "all day gas station", "round the clock fuel station", "24 hour petrol pump"]
+    },
+    {
+      "filename": "gas-station-open-now.html",
+      "title": "Gas Station Open Now | ParkingFinder",
+      "content": "Find gas stations that are currently open. Real-time status updates of fuel stations near your location.",
+      "keywords": ["gas station open now", "open gas station", "fuel station open", "petrol pump open", "gas station hours", "fuel station status"]
+    },
+    {
+      "filename": "cheapest-gas-near-me.html",
+      "title": "Cheapest Gas Near Me | ParkingFinder",
+      "content": "Find the cheapest gas prices near your location. Compare fuel prices and save money on your next fill-up.",
+      "keywords": ["cheapest gas near me", "lowest gas prices", "cheap fuel", "best gas prices", "affordable fuel", "gas price comparison"]
+    },
+    {
+      "filename": "petrol-price-near-me.html",
+      "title": "Petrol Price Near Me | ParkingFinder",
+      "content": "Check current petrol prices at stations near you. Find the best deals on petrol with real-time price updates.",
+      "keywords": ["petrol price near me", "petrol rates", "petrol cost", "petrol prices today", "petrol price check", "petrol price comparison"]
+    },
+    {
+      "filename": "diesel-price-near-me.html",
+      "title": "Diesel Price Near Me | ParkingFinder",
+      "content": "Find current diesel prices at stations near you. Compare diesel rates and save on your fuel costs.",
+      "keywords": ["diesel price near me", "diesel rates", "diesel cost", "diesel prices today", "diesel price check", "diesel price comparison"]
+    },
+    {
+      "filename": "ev-charging-installation.html",
+      "title": "EV Charging Installation | ParkingFinder",
+      "content": "Learn about EV charging station installation services. Find information about home charging installation, costs, and certified installers.",
+      "keywords": ["ev charging installation", "charging station installation", "ev charger setup", "charging point installation", "ev charging setup", "charging station setup"]
+    },
+    {
+      "filename": "ev-charger-installation-cost.html",
+      "title": "EV Charger Installation Cost | ParkingFinder",
+      "content": "Compare EV charger installation costs and find the best deals. Get detailed pricing information for home and commercial charging station installation.",
+      "keywords": ["ev charger installation cost", "charging station cost", "ev charger price", "installation fees", "charging point cost", "ev setup cost"]
+    },
+    {
+      "filename": "ev-home-charger-installation.html",
+      "title": "EV Home Charger Installation | ParkingFinder",
+      "content": "Find professional EV home charger installation services. Get your home charging station installed by certified electricians with warranty.",
+      "keywords": ["ev home charger installation", "home charging station", "residential ev charger", "home charging setup", "household charger", "home charging point"]
+    },
+    {
+      "filename": "tesla-home-charger-installation.html",
+      "title": "Tesla Home Charger Installation | ParkingFinder",
+      "content": "Professional Tesla home charger installation services. Get your Tesla Wall Connector installed by certified Tesla installers.",
+      "keywords": ["tesla home charger installation", "tesla wall connector", "tesla charging setup", "tesla home charging", "tesla charger install", "tesla charging point"]
+    },
+    {
+      "filename": "level-2-charger-installation-cost.html",
+      "title": "Level 2 Charger Installation Cost | ParkingFinder",
+      "content": "Compare Level 2 EV charger installation costs. Find the best prices for 240V charging station installation at your home or business.",
+      "keywords": ["level 2 charger installation cost", "240v charger cost", "level 2 charging price", "fast charger installation", "level 2 setup cost", "240v installation"]
+    },
+    {
+      "filename": "ev-charging-station-installation-cost.html",
+      "title": "EV Charging Station Installation Cost | ParkingFinder",
+      "content": "Get detailed pricing for commercial EV charging station installation. Compare costs for different charging station types and power levels.",
+      "keywords": ["ev charging station installation cost", "commercial charging cost", "public charging setup", "charging station price", "commercial installation", "public charging cost"]
+    },
+    {
+      "filename": "ev-charger-installers-near-me.html",
+      "title": "EV Charger Installers Near Me | ParkingFinder",
+      "content": "Find certified EV charger installers in your area. Connect with professional electricians for home and commercial charging station installation.",
+      "keywords": ["ev charger installers near me", "charging station installers", "ev electrician", "certified installer", "charging point expert", "ev installation service"]
+    },
+    {
+      "filename": "install-charging-station-at-home.html",
+      "title": "Install Charging Station at Home | ParkingFinder",
+      "content": "Learn how to install a charging station at your home. Get professional installation services and guidance for home EV charging setup.",
+      "keywords": ["install charging station at home", "home charging setup", "residential charging", "home ev charging", "household charger", "home charging point"]
+    },
+    {
+      "filename": "electric-car-charger-installation.html",
+      "title": "Electric Car Charger Installation | ParkingFinder",
+      "content": "Professional electric car charger installation services. Get your EV charging station installed by certified electricians with warranty.",
+      "keywords": ["electric car charger installation", "ev charging setup", "car charging station", "vehicle charger install", "car charging point", "ev charging setup"]
+    },
+    {
+      "filename": "overnight-parking-near-me.html",
+      "title": "Overnight Parking Near Me | ParkingFinder",
+      "content": "Find secure overnight parking spots near your location. Locate 24-hour parking facilities with security and convenient access.",
+      "keywords": ["overnight parking near me", "24 hour parking", "secure overnight parking", "night parking", "extended parking", "long term parking"]
+    },
+    {
+      "title": "Find Parking Near Me - ParkStar",
+      "filename": "parking-near-me.html",
+      "content": "Find the nearest parking spots in your area with ParkStar. Real-time availability, pricing, and directions to parking locations near you. Book parking in advance and save time.",
+      "keywords": [
+        "parking near me", "find parking", "nearest parking", "parking spots", "parking locations", "parking availability", "parking prices", "book parking"
+      ]
+    },
+    {
+      "title": "EV Charging Stations Near Me - ParkStar",
+      "filename": "ev-charging-near-me.html",
+      "content": "Locate EV charging stations near you with ParkStar. Find real-time availability, charging rates, and compatible charging points for your electric vehicle. Plan your charging stops efficiently.",
+      "keywords": [
+        "ev charging near me", "electric vehicle charging", "charging stations", "ev charging points", "fast charging", "charging availability", "charging rates", "ev charging map"
+      ]
+    },
+    {
+      "title": "Find Gas Stations Near Me - ParkStar",
+      "filename": "gas-stations-near-me.html",
+      "content": "Discover gas stations near your location with ParkStar. Get real-time fuel prices, station amenities, and directions. Find the best gas prices and plan your fuel stops efficiently.",
+      "keywords": [
+        "gas stations near me", "fuel stations", "petrol pumps", "gas prices", "nearest gas station", "fuel prices", "gas station finder", "petrol station locator"
+      ]
+    },
+    {
+      "title": "Parking in Mumbai - Find & Book Parking Spots",
+      "filename": "parking-mumbai.html",
+      "content": "Find and book parking spots across Mumbai with ParkStar. From Colaba to Andheri, discover convenient parking locations near popular destinations. Real-time availability and competitive rates.",
+      "keywords": [
+        "parking mumbai", "mumbai parking", "parking spots mumbai", "parking colaba", "parking andheri", "mumbai parking rates", "secure parking mumbai", "mumbai parking locations"
+      ]
+    },
+    {
+      "title": "Parking in Delhi - Secure Parking Spots",
+      "filename": "parking-delhi.html",
+      "content": "Locate secure parking spots across Delhi with ParkStar. From Connaught Place to Saket, find convenient parking near shopping malls, offices, and tourist attractions. Book in advance and save.",
+      "keywords": [
+        "parking delhi", "delhi parking", "parking spots delhi", "parking cp", "parking saket", "delhi parking rates", "secure parking delhi", "delhi parking locations"
+      ]
+    },
+    {
+      "title": "EV Charging Stations in Mumbai - ParkStar",
+      "filename": "ev-charging-mumbai.html",
+      "content": "Find EV charging stations across Mumbai with ParkStar. From Bandra to Powai, locate charging points for your electric vehicle. Real-time availability, charging rates, and compatible stations.",
+      "keywords": [
+        "ev charging mumbai", "mumbai ev charging", "electric vehicle charging mumbai", "charging stations mumbai", "mumbai charging points", "fast charging mumbai", "ev charging rates mumbai"
+      ]
+    },
+    {
+      "title": "EV Charging Stations in Delhi - ParkStar",
+      "filename": "ev-charging-delhi.html",
+      "content": "Locate EV charging stations across Delhi with ParkStar. From Gurgaon to Noida, find charging points for your electric vehicle. Real-time availability, charging rates, and compatible stations.",
+      "keywords": [
+        "ev charging delhi", "delhi ev charging", "electric vehicle charging delhi", "charging stations delhi", "delhi charging points", "fast charging delhi", "ev charging rates delhi"
+      ]
+    },
+    {
+      "title": "Gas Stations in Mumbai - Find Fuel Stations",
+      "filename": "gas-stations-mumbai.html",
+      "content": "Find gas stations across Mumbai with ParkStar. From South Mumbai to Navi Mumbai, locate fuel stations with real-time prices and amenities. Plan your fuel stops efficiently.",
+      "keywords": [
+        "gas stations mumbai", "mumbai gas stations", "fuel stations mumbai", "petrol pumps mumbai", "mumbai gas prices", "fuel prices mumbai", "mumbai petrol stations"
+      ]
+    },
+    {
+      "title": "Gas Stations in Delhi - Find Fuel Stations",
+      "filename": "gas-stations-delhi.html",
+      "content": "Locate gas stations across Delhi with ParkStar. From Central Delhi to NCR, find fuel stations with real-time prices and amenities. Plan your fuel stops efficiently.",
+      "keywords": [
+        "gas stations delhi", "delhi gas stations", "fuel stations delhi", "petrol pumps delhi", "delhi gas prices", "fuel prices delhi", "delhi petrol stations"
+      ]
+    },
+    {
+      "title": "Secure Parking Spots - ParkStar",
+      "filename": "secure-parking.html",
+      "content": "Find secure parking spots with 24/7 surveillance, CCTV cameras, and security personnel. ParkStar ensures your vehicle's safety with monitored parking locations across major cities.",
+      "keywords": [
+        "secure parking", "safe parking", "monitored parking", "cctv parking", "guarded parking", "secure parking spots", "safe parking locations", "monitored parking areas"
+      ]
+    },
+    {
+      "title": "Monthly Parking Passes - ParkStar",
+      "filename": "monthly-parking.html",
+      "content": "Get affordable monthly parking passes with ParkStar. Save up to 50% on daily rates with our monthly parking subscriptions. Available for residential and commercial parking needs.",
+      "keywords": [
+        "monthly parking", "parking subscription", "monthly parking pass", "parking membership", "residential parking", "commercial parking", "parking subscription plans", "monthly parking rates"
+      ]
+    },
+    {
+      "title": "Fast EV Charging Stations - ParkStar",
+      "filename": "fast-charging.html",
+      "content": "Find fast EV charging stations with ParkStar. Locate DC fast chargers, superchargers, and rapid charging points for quick charging of your electric vehicle. Real-time availability and charging rates.",
+      "keywords": [
+        "fast charging", "dc fast charging", "supercharger", "rapid charging", "quick charging", "fast ev charging", "fast charging stations", "rapid charging points"
+      ]
+    },
+    {
+      "title": "Compare Parking Rates - ParkStar",
+      "filename": "compare-parking.html",
+      "content": "Compare parking rates across different locations with ParkStar. Find the best parking deals, compare prices, and book the most affordable parking spots near your destination.",
+      "keywords": [
+        "compare parking", "parking rates", "parking prices", "parking comparison", "best parking deals", "affordable parking", "parking price comparison", "cheap parking"
+      ]
+    },
+    {
+      "title": "Airport Parking - ParkStar",
+      "filename": "airport-parking.html",
+      "content": "Find and book airport parking with ParkStar. Secure parking spots near major airports with shuttle services, 24/7 surveillance, and competitive rates. Book in advance and save.",
+      "keywords": [
+        "airport parking", "airport parking spots", "airport parking rates", "secure airport parking", "airport parking booking", "airport parking shuttle", "airport parking security", "airport parking locations"
+      ]
+    },
+    {
+      "title": "Mall Parking - Find Parking Near Shopping Malls",
+      "filename": "mall-parking.html",
+      "content": "Locate parking spots near shopping malls with ParkStar. Find convenient parking locations, compare rates, and book in advance. Real-time availability and directions to mall parking.",
+      "keywords": [
+        "mall parking", "shopping mall parking", "mall parking spots", "mall parking rates", "mall parking locations", "mall parking booking", "mall parking availability", "mall parking directions"
+      ]
+    },
+    {
+      "title": "Office Parking - Find Parking Near Business Districts",
+      "filename": "office-parking.html",
+      "content": "Find parking spots near business districts and office complexes with ParkStar. Secure parking locations, monthly passes, and competitive rates for office parking needs.",
+      "keywords": [
+        "office parking", "business parking", "corporate parking", "office parking spots", "office parking rates", "business district parking", "office parking locations", "corporate parking solutions"
+      ]
+    },
+    {
+      "title": "Residential Parking - Find Parking Near Home",
+      "filename": "residential-parking.html",
+      "content": "Locate parking spots near residential areas with ParkStar. Find secure parking locations, monthly passes, and affordable rates for residential parking needs.",
+      "keywords": [
+        "residential parking", "home parking", "apartment parking", "residential parking spots", "residential parking rates", "home parking locations", "apartment parking solutions", "residential parking passes"
+      ]
+    },
+    {
+      "title": "Event Parking - Find Parking Near Venues",
+      "filename": "event-parking.html",
+      "content": "Find parking spots near event venues with ParkStar. Book parking in advance for concerts, sports events, and special occasions. Real-time availability and competitive rates.",
+      "keywords": [
+        "event parking", "venue parking", "concert parking", "sports parking", "event parking spots", "venue parking rates", "event parking booking", "venue parking locations"
+      ]
+    },
+    {
+      "title": "Hospital Parking - Find Parking Near Medical Centers",
+      "filename": "hospital-parking.html",
+      "content": "Locate parking spots near hospitals and medical centers with ParkStar. Find convenient parking locations, compare rates, and book in advance. Real-time availability and directions.",
+      "keywords": [
+        "hospital parking", "medical parking", "hospital parking spots", "hospital parking rates", "medical center parking", "hospital parking locations", "medical parking solutions", "hospital parking booking"
+      ]
+    },
+    {
+      "title": "Station Parking - Find Parking Near Train Stations",
+      "filename": "station-parking.html",
+      "content": "Find parking spots near train stations with ParkStar. Secure parking locations, daily and monthly passes, and competitive rates for commuter parking needs.",
+      "keywords": [
+        "station parking", "train station parking", "commuter parking", "station parking spots", "station parking rates", "train station parking locations", "commuter parking solutions", "station parking passes"
+      ]
+    },
+    {
+      "filename": "parking-bangalore.html",
+      "title": "Parking in Bangalore - Find & Book Parking Spots",
+      "content": "Find and book parking spots across Bangalore with ParkStar. From Koramangala to Whitefield, discover convenient parking locations near tech parks, shopping malls, and residential areas. Real-time availability and competitive rates.",
+      "keywords": ["parking bangalore", "bangalore parking", "parking spots bangalore", "parking koramangala", "parking whitefield", "bangalore parking rates", "secure parking bangalore", "bangalore parking locations"]
+    },
+    {
+      "filename": "parking-hyderabad.html",
+      "title": "Parking in Hyderabad - Find & Book Parking Spots",
+      "content": "Locate parking spots across Hyderabad with ParkStar. From Hitech City to Banjara Hills, find convenient parking near IT parks, shopping centers, and residential areas. Book in advance and save.",
+      "keywords": ["parking hyderabad", "hyderabad parking", "parking spots hyderabad", "parking hitech city", "parking banjara hills", "hyderabad parking rates", "secure parking hyderabad", "hyderabad parking locations"]
+    },
+    {
+      "filename": "parking-chennai.html",
+      "title": "Parking in Chennai - Find & Book Parking Spots",
+      "content": "Find parking spots across Chennai with ParkStar. From T Nagar to Anna Nagar, discover convenient parking near shopping districts, business centers, and residential areas. Real-time availability and competitive rates.",
+      "keywords": ["parking chennai", "chennai parking", "parking spots chennai", "parking t nagar", "parking anna nagar", "chennai parking rates", "secure parking chennai", "chennai parking locations"]
+    },
+    {
+      "filename": "ev-charging-bangalore.html",
+      "title": "EV Charging Stations in Bangalore - ParkStar",
+      "content": "Find EV charging stations across Bangalore with ParkStar. From Electronic City to Manyata Tech Park, locate charging points for your electric vehicle. Real-time availability, charging rates, and compatible stations.",
+      "keywords": ["ev charging bangalore", "bangalore ev charging", "electric vehicle charging bangalore", "charging stations bangalore", "bangalore charging points", "fast charging bangalore", "ev charging rates bangalore"]
+    },
+    {
+      "filename": "ev-charging-hyderabad.html",
+      "title": "EV Charging Stations in Hyderabad - ParkStar",
+      "content": "Locate EV charging stations across Hyderabad with ParkStar. From Gachibowli to Madhapur, find charging points for your electric vehicle. Real-time availability, charging rates, and compatible stations.",
+      "keywords": ["ev charging hyderabad", "hyderabad ev charging", "electric vehicle charging hyderabad", "charging stations hyderabad", "hyderabad charging points", "fast charging hyderabad", "ev charging rates hyderabad"]
+    },
+    {
+      "filename": "gas-stations-bangalore.html",
+      "title": "Gas Stations in Bangalore - Find Fuel Stations",
+      "content": "Find gas stations across Bangalore with ParkStar. From MG Road to Outer Ring Road, locate fuel stations with real-time prices and amenities. Plan your fuel stops efficiently.",
+      "keywords": ["gas stations bangalore", "bangalore gas stations", "fuel stations bangalore", "petrol pumps bangalore", "bangalore gas prices", "fuel prices bangalore", "bangalore petrol stations"]
+    },
+    {
+      "filename": "gas-stations-hyderabad.html",
+      "title": "Gas Stations in Hyderabad - Find Fuel Stations",
+      "content": "Locate gas stations across Hyderabad with ParkStar. From Jubilee Hills to Secunderabad, find fuel stations with real-time prices and amenities. Plan your fuel stops efficiently.",
+      "keywords": ["gas stations hyderabad", "hyderabad gas stations", "fuel stations hyderabad", "petrol pumps hyderabad", "hyderabad gas prices", "fuel prices hyderabad", "hyderabad petrol stations"]
+    },
+    {
+      "filename": "parking-in-bangalore.html",
+      "title": "Find Parking in Bangalore | ParkStar",
+      "content": "Find convenient parking spots near popular locations in Bangalore including MG Road, Koramangala, Indiranagar, and Electronic City. ParkStar helps you locate secure parking near shopping malls, tech parks, and metro stations.",
+      "keywords": ["parking in bangalore", "bangalore parking", "parking near mg road", "parking koramangala", "parking indiranagar", "electronic city parking", "bangalore tech park parking", "bangalore metro parking"]
+    },
+    {
+      "filename": "parking-in-chennai.html",
+      "title": "Find Parking in Chennai | ParkStar",
+      "content": "Locate parking spaces near major landmarks in Chennai including Marina Beach, T Nagar, Anna Nagar, and IT Corridor. ParkStar helps you find parking near shopping centers, business districts, and metro stations.",
+      "keywords": ["parking in chennai", "chennai parking", "parking near marina beach", "parking t nagar", "parking anna nagar", "chennai it corridor parking", "chennai metro parking", "chennai mall parking"]
+    },
+    {
+      "filename": "parking-in-hyderabad.html",
+      "title": "Find Parking in Hyderabad | ParkStar",
+      "content": "Find convenient parking spots near popular locations in Hyderabad including Hitech City, Banjara Hills, Jubilee Hills, and Secunderabad. ParkStar helps you locate secure parking near tech parks, shopping malls, and metro stations.",
+      "keywords": ["parking in hyderabad", "hyderabad parking", "parking near hitech city", "parking banjara hills", "parking jubilee hills", "secunderabad parking", "hyderabad tech park parking", "hyderabad metro parking"]
+    },
+    {
+      "filename": "ev-charging-bangalore.html",
+      "title": "EV Charging Stations in Bangalore | ParkStar",
+      "content": "Find EV charging stations across Bangalore including MG Road, Koramangala, Indiranagar, and Electronic City. ParkStar helps you locate fast charging points near tech parks, shopping malls, and residential areas.",
+      "keywords": ["ev charging bangalore", "electric vehicle charging bangalore", "ev charging mg road", "ev charging koramangala", "ev charging indiranagar", "ev charging electronic city", "bangalore ev stations", "bangalore charging points"]
+    },
+    {
+      "filename": "ev-charging-chennai.html",
+      "title": "EV Charging Stations in Chennai | ParkStar",
+      "content": "Locate EV charging stations across Chennai including Marina Beach, T Nagar, Anna Nagar, and IT Corridor. ParkStar helps you find charging points near shopping centers, business districts, and residential areas.",
+      "keywords": ["ev charging chennai", "electric vehicle charging chennai", "ev charging marina beach", "ev charging t nagar", "ev charging anna nagar", "ev charging it corridor", "chennai ev stations", "chennai charging points"]
+    },
+    {
+      "filename": "ev-charging-hyderabad.html",
+      "title": "EV Charging Stations in Hyderabad | ParkStar",
+      "content": "Find EV charging stations across Hyderabad including Hitech City, Banjara Hills, Jubilee Hills, and Secunderabad. ParkStar helps you locate fast charging points near tech parks, shopping malls, and residential areas.",
+      "keywords": ["ev charging hyderabad", "electric vehicle charging hyderabad", "ev charging hitech city", "ev charging banjara hills", "ev charging jubilee hills", "ev charging secunderabad", "hyderabad ev stations", "hyderabad charging points"]
+    },
+    {
+      "filename": "gas-stations-bangalore.html",
+      "title": "Gas Stations in Bangalore | ParkStar",
+      "content": "Find gas stations across Bangalore including MG Road, Koramangala, Indiranagar, and Electronic City. ParkStar helps you locate fuel stations near tech parks, shopping malls, and major highways.",
+      "keywords": ["gas stations bangalore", "petrol pumps bangalore", "fuel stations bangalore", "gas stations mg road", "gas stations koramangala", "gas stations indiranagar", "gas stations electronic city", "bangalore fuel stations"]
+    },
+    {
+      "filename": "gas-stations-chennai.html",
+      "title": "Gas Stations in Chennai | ParkStar",
+      "content": "Locate gas stations across Chennai including Marina Beach, T Nagar, Anna Nagar, and IT Corridor. ParkStar helps you find fuel stations near shopping centers, business districts, and major highways.",
+      "keywords": ["gas stations chennai", "petrol pumps chennai", "fuel stations chennai", "gas stations marina beach", "gas stations t nagar", "gas stations anna nagar", "gas stations it corridor", "chennai fuel stations"]
+    },
+    {
+      "filename": "gas-stations-hyderabad.html",
+      "title": "Gas Stations in Hyderabad | ParkStar",
+      "content": "Find gas stations across Hyderabad including Hitech City, Banjara Hills, Jubilee Hills, and Secunderabad. ParkStar helps you locate fuel stations near tech parks, shopping malls, and major highways.",
+      "keywords": ["gas stations hyderabad", "petrol pumps hyderabad", "fuel stations hyderabad", "gas stations hitech city", "gas stations banjara hills", "gas stations jubilee hills", "gas stations secunderabad", "hyderabad fuel stations"]
+    },
+    {
+      "filename": "parking-in-pune.html",
+      "title": "Find Parking in Pune | ParkStar",
+      "content": "Find convenient parking spots near popular locations in Pune including Koregaon Park, Hinjewadi, Kalyani Nagar, and Viman Nagar. ParkStar helps you locate secure parking near IT parks, shopping malls, and metro stations.",
+      "keywords": ["parking in pune", "pune parking", "parking near koregaon park", "parking hinjewadi", "parking kalyani nagar", "viman nagar parking", "pune it park parking", "pune metro parking"]
+    },
+    {
+      "filename": "parking-in-kolkata.html",
+      "title": "Find Parking in Kolkata | ParkStar",
+      "content": "Locate parking spaces near major landmarks in Kolkata including Park Street, Salt Lake, New Town, and Howrah. ParkStar helps you find parking near shopping centers, business districts, and metro stations.",
+      "keywords": ["parking in kolkata", "kolkata parking", "parking near park street", "parking salt lake", "parking new town", "howrah parking", "kolkata metro parking", "kolkata mall parking"]
+    },
+    {
+      "filename": "parking-in-ahmedabad.html",
+      "title": "Find Parking in Ahmedabad | ParkStar",
+      "content": "Find convenient parking spots near popular locations in Ahmedabad including SG Road, Prahlad Nagar, Satellite, and Vastrapur. ParkStar helps you locate secure parking near business parks, shopping malls, and metro stations.",
+      "keywords": ["parking in ahmedabad", "ahmedabad parking", "parking near sg road", "parking prahlad nagar", "parking satellite", "vastrapur parking", "ahmedabad business park parking", "ahmedabad metro parking"]
+    },
+    {
+      "filename": "ev-charging-pune.html",
+      "title": "EV Charging Stations in Pune | ParkStar",
+      "content": "Find EV charging stations across Pune including Koregaon Park, Hinjewadi, Kalyani Nagar, and Viman Nagar. ParkStar helps you locate fast charging points near IT parks, shopping malls, and residential areas.",
+      "keywords": ["ev charging pune", "electric vehicle charging pune", "ev charging koregaon park", "ev charging hinjewadi", "ev charging kalyani nagar", "ev charging viman nagar", "pune ev stations", "pune charging points"]
+    },
+    {
+      "filename": "ev-charging-kolkata.html",
+      "title": "EV Charging Stations in Kolkata | ParkStar",
+      "content": "Locate EV charging stations across Kolkata including Park Street, Salt Lake, New Town, and Howrah. ParkStar helps you find charging points near shopping centers, business districts, and residential areas.",
+      "keywords": ["ev charging kolkata", "electric vehicle charging kolkata", "ev charging park street", "ev charging salt lake", "ev charging new town", "ev charging howrah", "kolkata ev stations", "kolkata charging points"]
+    },
+    {
+      "filename": "ev-charging-ahmedabad.html",
+      "title": "EV Charging Stations in Ahmedabad | ParkStar",
+      "content": "Find EV charging stations across Ahmedabad including SG Road, Prahlad Nagar, Satellite, and Vastrapur. ParkStar helps you locate fast charging points near business parks, shopping malls, and residential areas.",
+      "keywords": ["ev charging ahmedabad", "electric vehicle charging ahmedabad", "ev charging sg road", "ev charging prahlad nagar", "ev charging satellite", "ev charging vastrapur", "ahmedabad ev stations", "ahmedabad charging points"]
+    },
+    {
+      "filename": "gas-stations-pune.html",
+      "title": "Gas Stations in Pune | ParkStar",
+      "content": "Find gas stations across Pune including Koregaon Park, Hinjewadi, Kalyani Nagar, and Viman Nagar. ParkStar helps you locate fuel stations near IT parks, shopping malls, and major highways.",
+      "keywords": ["gas stations pune", "petrol pumps pune", "fuel stations pune", "gas stations koregaon park", "gas stations hinjewadi", "gas stations kalyani nagar", "gas stations viman nagar", "pune fuel stations"]
+    },
+    {
+      "filename": "gas-stations-kolkata.html",
+      "title": "Gas Stations in Kolkata | ParkStar",
+      "content": "Locate gas stations across Kolkata including Park Street, Salt Lake, New Town, and Howrah. ParkStar helps you find fuel stations near shopping centers, business districts, and major highways.",
+      "keywords": ["gas stations kolkata", "petrol pumps kolkata", "fuel stations kolkata", "gas stations park street", "gas stations salt lake", "gas stations new town", "gas stations howrah", "kolkata fuel stations"]
+    },
+    {
+      "filename": "gas-stations-ahmedabad.html",
+      "title": "Gas Stations in Ahmedabad | ParkStar",
+      "content": "Find gas stations across Ahmedabad including SG Road, Prahlad Nagar, Satellite, and Vastrapur. ParkStar helps you locate fuel stations near business parks, shopping malls, and major highways.",
+      "keywords": ["gas stations ahmedabad", "petrol pumps ahmedabad", "fuel stations ahmedabad", "gas stations sg road", "gas stations prahlad nagar", "gas stations satellite", "gas stations vastrapur", "ahmedabad fuel stations"]
+    },
+    {
+      "filename": "parking-near-me-today.html",
+      "title": "Find Parking Near Me Today | ParkingFinder",
+      "content": "Find available parking spots near you today. Real-time parking availability, current rates, and instant booking options. Save time and money with ParkingFinder's smart parking finder.",
+      "keywords": ["parking near me today", "find parking today", "available parking today", "current parking spots", "today's parking", "instant parking"]
+    },
+    {
+      "filename": "how-to-find-parking-near-me.html",
+      "title": "How to Find Parking Near Me | ParkingFinder Guide",
+      "content": "Learn how to find the best parking spots near your location. Step-by-step guide to using ParkingFinder's smart parking finder, real-time availability, and booking system.",
+      "keywords": ["how to find parking near me", "parking finder guide", "find parking spots", "parking search guide", "parking tips", "parking tutorial"]
+    },
+    {
+      "filename": "parking-maps-near-me.html",
+      "title": "Parking Maps Near Me | ParkingFinder",
+      "content": "View interactive parking maps showing available spots near your location. Find parking garages, street parking, and public lots with real-time availability updates.",
+      "keywords": ["parking maps near me", "parking map", "interactive parking map", "parking location map", "parking spot map", "parking finder map"]
+    },
+    {
+      "filename": "parking-spots-available-near-me.html",
+      "title": "Available Parking Spots Near Me | ParkingFinder",
+      "content": "Find currently available parking spots near your location. Real-time parking availability updates, instant booking, and directions to your chosen spot.",
+      "keywords": ["parking spots available near me", "available parking", "current parking spots", "open parking spots", "free parking spots", "parking availability"]
+    },
+    {
+      "filename": "free-parking-garage-near-me.html",
+      "title": "Free Parking Garage Near Me | ParkingFinder",
+      "content": "Find free parking garages and covered parking facilities near your location. Locate complimentary parking structures with 24/7 security and convenient access.",
+      "keywords": ["free parking garage near me", "complimentary parking garage", "free covered parking", "free parking structure", "free parking facility", "no cost parking garage"]
+    },
+    {
+      "filename": "best-parking-app.html",
+      "title": "Best Parking App | ParkingFinder",
+      "content": "Discover why ParkingFinder is the best parking app for finding and booking parking spots. Real-time availability, instant booking, and the largest network of parking locations.",
+      "keywords": ["best parking app", "top parking app", "parking finder app", "parking booking app", "smart parking app", "parking app review"]
+    },
+    {
+      "filename": "find-car-park-near-me.html",
+      "title": "Find Car Park Near Me | ParkingFinder",
+      "content": "Locate car parks and parking facilities near your current location. Find secure parking spaces with real-time availability and easy booking options.",
+      "keywords": ["find car park near me", "car park near me", "parking facility near me", "car parking spot", "vehicle parking", "car park finder"]
+    },
+    {
+      "filename": "street-parking-rules.html",
+      "title": "Street Parking Rules | ParkingFinder Guide",
+      "content": "Learn about street parking rules and regulations. Find information about parking restrictions, time limits, and parking zones in your area.",
+      "keywords": ["street parking rules", "parking regulations", "parking restrictions", "parking time limits", "parking zones", "parking laws"]
+    },
+    {
+      "filename": "reserve-parking-spot-online.html",
+      "title": "Reserve Parking Spot Online | ParkingFinder",
+      "content": "Book and reserve parking spots online in advance. Secure your parking space with instant confirmation and guaranteed availability.",
+      "keywords": ["reserve parking spot online", "book parking online", "parking reservation", "pre-book parking", "parking booking", "secure parking spot"]
+    },
+    {
+      "filename": "fuel-prices-today-near-me.html",
+      "title": "Fuel Prices Today Near Me | ParkingFinder",
+      "content": "Find current fuel prices at stations near you. Compare petrol, diesel, and CNG prices in real-time and save on your fuel costs.",
+      "keywords": ["fuel prices today near me", "current fuel prices", "today's fuel rates", "fuel price check", "fuel cost today", "fuel price comparison"]
+    },
+    {
+      "filename": "petrol-price-today.html",
+      "title": "Petrol Price Today | ParkingFinder",
+      "content": "Check today's petrol prices at stations near you. Find the best deals on petrol with real-time price updates and price comparison.",
+      "keywords": ["petrol price today", "today's petrol rate", "current petrol price", "petrol cost today", "petrol price check", "petrol price comparison"]
+    },
+    {
+      "filename": "diesel-price-today.html",
+      "title": "Diesel Price Today | ParkingFinder",
+      "content": "Find today's diesel prices at stations near you. Compare diesel rates and save money on your fuel costs with real-time price updates.",
+      "keywords": ["diesel price today", "today's diesel rate", "current diesel price", "diesel cost today", "diesel price check", "diesel price comparison"]
+    },
+    {
+      "filename": "cng-price-near-me.html",
+      "title": "CNG Price Near Me | ParkingFinder",
+      "content": "Find current CNG prices at stations near your location. Compare CNG rates and locate CNG filling stations with real-time price updates.",
+      "keywords": ["cng price near me", "cng rates", "cng cost", "cng price today", "cng price check", "cng price comparison"]
+    },
+    {
+      "filename": "gas-station-with-cng-near-me.html",
+      "title": "Gas Station with CNG Near Me | ParkingFinder",
+      "content": "Locate gas stations with CNG facilities near your location. Find CNG filling stations with real-time availability and price information.",
+      "keywords": ["gas station with cng near me", "cng station near me", "cng filling station", "cng pump near me", "cng gas station", "cng fuel station"]
+    },
+    {
+      "filename": "truck-stop-near-me.html",
+      "title": "Truck Stop Near Me | ParkingFinder",
+      "content": "Find truck stops and rest areas near your location. Locate facilities with truck parking, fuel stations, and amenities for commercial vehicles.",
+      "keywords": ["truck stop near me", "truck parking", "rest area near me", "truck facility", "commercial vehicle parking", "truck rest stop"]
+    },
+    {
+      "filename": "fuel-station-open-now-near-me.html",
+      "title": "Fuel Station Open Now Near Me | ParkingFinder",
+      "content": "Find fuel stations that are currently open near your location. Real-time status updates of petrol pumps and gas stations.",
+      "keywords": ["fuel station open now near me", "open gas station", "petrol pump open now", "fuel station hours", "gas station status", "open fuel station"]
+    },
+    {
+      "filename": "petrol-pump-map.html",
+      "title": "Petrol Pump Map | ParkingFinder",
+      "content": "View interactive map of petrol pumps and fuel stations near you. Find the nearest fuel stations with real-time price updates and directions.",
+      "keywords": ["petrol pump map", "fuel station map", "gas station map", "petrol pump locator", "fuel station finder", "gas station directory"]
+    },
+    {
+      "filename": "petrol-pump-open-now.html",
+      "title": "Petrol Pump Open Now | ParkingFinder",
+      "content": "Find petrol pumps that are currently open. Locate fuel stations with real-time status updates and current operating hours.",
+      "keywords": ["petrol pump open now", "open petrol pump", "fuel station open", "petrol pump hours", "fuel station status", "open fuel station"]
+    },
+    {
+      "filename": "ev-charging-installation.html",
+      "title": "EV Charging Installation | ParkingFinder",
+      "content": "Learn about EV charging station installation services. Find information about home charging installation, costs, and certified installers.",
+      "keywords": ["ev charging installation", "charging station installation", "ev charger setup", "charging point installation", "ev charging setup", "charging station setup"]
+    },
+    {
+      "filename": "ev-charger-installation-cost.html",
+      "title": "EV Charger Installation Cost | ParkingFinder",
+      "content": "Compare EV charger installation costs and find the best deals. Get detailed pricing information for home and commercial charging station installation.",
+      "keywords": ["ev charger installation cost", "charging station cost", "ev charger price", "installation fees", "charging point cost", "ev setup cost"]
+    },
+    {
+      "filename": "ev-home-charger-installation.html",
+      "title": "EV Home Charger Installation | ParkingFinder",
+      "content": "Find professional EV home charger installation services. Get your home charging station installed by certified electricians with warranty.",
+      "keywords": ["ev home charger installation", "home charging station", "residential ev charger", "home charging setup", "household charger", "home charging point"]
+    },
+    {
+      "filename": "tesla-home-charger-installation.html",
+      "title": "Tesla Home Charger Installation | ParkingFinder",
+      "content": "Professional Tesla home charger installation services. Get your Tesla Wall Connector installed by certified Tesla installers.",
+      "keywords": ["tesla home charger installation", "tesla wall connector", "tesla charging setup", "tesla home charging", "tesla charger install", "tesla charging point"]
+    },
+    {
+      "filename": "level-2-charger-installation-cost.html",
+      "title": "Level 2 Charger Installation Cost | ParkingFinder",
+      "content": "Compare Level 2 EV charger installation costs. Find the best prices for 240V charging station installation at your home or business.",
+      "keywords": ["level 2 charger installation cost", "240v charger cost", "level 2 charging price", "fast charger installation", "level 2 setup cost", "240v installation"]
+    },
+    {
+      "filename": "ev-charging-station-installation-cost.html",
+      "title": "EV Charging Station Installation Cost | ParkingFinder",
+      "content": "Get detailed pricing for commercial EV charging station installation. Compare costs for different charging station types and power levels.",
+      "keywords": ["ev charging station installation cost", "commercial charging cost", "public charging setup", "charging station price", "commercial installation", "public charging cost"]
+    },
+    {
+      "filename": "ev-charger-installers-near-me.html",
+      "title": "EV Charger Installers Near Me | ParkingFinder",
+      "content": "Find certified EV charger installers in your area. Connect with professional electricians for home and commercial charging station installation.",
+      "keywords": ["ev charger installers near me", "charging station installers", "ev electrician", "certified installer", "charging point expert", "ev installation service"]
+    },
+    {
+      "filename": "install-charging-station-at-home.html",
+      "title": "Install Charging Station at Home | ParkingFinder",
+      "content": "Learn how to install a charging station at your home. Get professional installation services and guidance for home EV charging setup.",
+      "keywords": ["install charging station at home", "home charging setup", "residential charging", "home ev charging", "household charger", "home charging point"]
+    },
+    {
+      "filename": "electric-car-charger-installation.html",
+      "title": "Electric Car Charger Installation | ParkingFinder",
+      "content": "Professional electric car charger installation services. Get your EV charging station installed by certified electricians with warranty.",
+      "keywords": ["electric car charger installation", "ev charging setup", "car charging station", "vehicle charger install", "car charging point", "ev charging setup"]
+    },
+    {
+      "filename": "overnight-parking-near-me.html",
+      "title": "Overnight Parking Near Me | ParkingFinder",
+      "content": "Find secure overnight parking spots near your location. Locate 24-hour parking facilities with security and convenient access.",
+      "keywords": ["overnight parking near me", "24 hour parking", "secure overnight parking", "night parking", "extended parking", "long term parking"]
+    }
+  ]
+} 
