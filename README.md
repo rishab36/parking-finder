@@ -1,64 +1,63 @@
 # 🚗 ParkingFinder.tech
 
-> A global, cross-platform parking & mobility app built for real-world use.  
-> **Now fully open-source — fork it, remix it, launch your own!**
-
-![ParkingFinder](https://parkingfinder.tech)
+> A cross-platform parking & mobility app built to solve real-life problems.  
+> **Now open-sourced – clone it, remix it, make it your own!**
 
 ---
 
-## 🔥 Why ParkingFinder.tech?
+## 📦 Overview
 
-Finding parking shouldn't feel like solving a puzzle. **ParkingFinder.tech** helps users locate nearby parking spots — free or paid — in real-time.  
-Whether you're in Mumbai, Milan, or Manhattan, this app is designed to **save time, reduce stress, and improve urban mobility.**
-
----
-
-## 💡 Key Highlights
-
-| Feature              | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| 🌍 Global Coverage  | Works anywhere — built with Google Maps API                                 |
-| 🔄 Real-Time Updates| Uses Firebase for real-time data sync and parking spot availability         |
-| 🆓 Free vs Paid     | Easily filter between free and paid parking                                 |
-| 📱 Mobile-first     | React Native build — works great on both Android & iOS                      |
-| 🌐 Web Support      | Web version hosted using Netlify                                            |
-| 🔓 Open Source      | Free for all — clone it, contribute, or use it in your startup/city project |
-
----
-
-## 📸 Pages
-
-
-| Home Page                         | SEO Generated Pages        |
-|-----------------------------------|------------------------------------|
-| ![](https://parkingfinder.tech)   | ![](https://parkingfinder.tech/parking-near-me.html)  |
+**ParkingFinder.tech** helps users locate free and paid parking spots nearby in real-time, across the globe.  
+The mission? No more frustration. Just smarter, faster parking — powered by AI and the community.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology        | Purpose                             |
-|-------------------|-------------------------------------|
-| React Native      | Cross-platform mobile development   |
-| Expo              | Fast app development + testing      |
-| Firebase          | Auth + Real-time DB (parking data)  |
-| Google Maps API   | Geolocation + map services          |
-| Netlify           | Hosting the web version             |
+| Tech             | Purpose                                         |
+|------------------|-------------------------------------------------|
+| React Native     | Cross-platform mobile development               |
+| Firebase         | Realtime DB + authentication                    |
+| Leaflet.js       | Lightweight, open-source mapping                |
+| Google Maps API  | Location & route detection                      |
+| Multiple APIs    | Cross-checked for best parking availability     |
+| Capacitor        | iOS deployment bridge                           |
+| Expo             | Rapid dev, build, and preview                   |
+| Netlify          | Web version hosting                             |
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
 
-### 🧱 Prerequisites
-- Node.js & npm
-- Expo CLI (`npm install -g expo-cli`)
+| Feature                 | Description                                                  |
+|--------------------------|--------------------------------------------------------------|
+| 🌍 Global Search         | Works across countries using live map + data sources         |
+| 🆓 Free or Paid Filter  | Easily filter parking types to suit your budget              |
+| 🧠 AI-Enhanced Speed    | AI used to streamline performance and speed up search         |
+| 📱 Mobile-first         | Works on Android, iOS, and web seamlessly                    |
+| 🧪 Multi-Country Tested | Validated with users in various geographies                   |
+| 🔍 SEO In Progress      | Help us rank on Google – contributions welcome!               |
+| 🧩 Open Source           | Fork it, contribute, or use it as your own city solution 💪    |
 
-### ⚙️ Installation
+---
+
+## 📷 Social & Launch
+
+| Platform         | Link                                                                 |
+|------------------|----------------------------------------------------------------------|
+| 🌐 Instagram      | [@parkingfinder_](https://www.instagram.com/parkingfinder_?igsh=b21pc3o1ZHQ1bGEx) |
+| 🚀 Product Hunt   | [Product Page](https://www.producthunt.com/products/parking-finder?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-parking-finder) |
+| 💼 LinkedIn       | [Company Page](https://www.linkedin.com/company/108189104/admin/dashboard/) |
+
+---
+
+## 🧰 Installation & Setup
+
+<details>
+  <summary>📋 Click to Copy Installation Commands</summary>
 
 ```bash
 git clone https://github.com/rishab36/parkingfinder.tech.git
 cd parkingfinder.tech
 npm install
 npm start
-
