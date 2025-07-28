@@ -16,8 +16,7 @@ The mission? No more frustration. Just smarter, faster parking — powered by AI
 
 | Tech             | Purpose                                         |
 |------------------|-------------------------------------------------|
-| React Native     | Cross-platform mobile development               |
-| Firebase         | Realtime DB + authentication                    |
+| ReactJs     | Cross-platform mobile development               |                   |
 | Leaflet.js       | Lightweight, open-source mapping                |
 | Leaflet Maps API  | Location & route detection                      |
 | Multiple APIs    | Cross-checked for best parking availability     |
