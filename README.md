@@ -18,7 +18,7 @@ The mission? No more frustration. Just smarter, faster parking — powered by AI
 |------------------|-------------------------------------------------|
 | ReactJs     | Cross-platform mobile development               |                   |
 | Leaflet.js       | Lightweight, open-source mapping                |
-| Leaflet Maps API  | Location & route detection                      |
+| Google Maps   | Route detection                      |
 | Multiple APIs    | Cross-checked for best parking availability     |
 | Capacitor        | iOS deployment bridge                           |
 | Expo             | Rapid dev, build, and preview                   |
