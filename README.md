@@ -12,6 +12,21 @@ The mission? No more frustration. Just smarter, faster parking — powered by AI
 
 ---
 
+## 🔑 Core Features
+
+| Feature                   | Description                                                      |
+|---------------------------|------------------------------------------------------------------|
+| 🔍 Instant Parking Discovery | Free or paid parking, instantly nearby                           |
+| ⛽ Fuel Stations with Pricing | See current petrol/diesel prices and station availability       |
+| ⚡ EV Charging Stations     | Navigate directly to working, mapped-out chargers               |
+| 🚌 Local Bus Stops          | Identify key public transport options in your area              |
+| 🌦 Live Weather Reports     | Get real-time weather updates to plan your drive                 |
+| 📴 Offline Support          | Access parking info even when your network drops                |
+| 🌍 Global Reach             | Works all around the world                                       |
+| 🧭 Modern, Fast UI          | Minimalist design focused on speed and clarity                  |
+
+---
+
 ## 🛠️ Tech Stack
 
 | Tech             | Purpose                                         |
@@ -23,6 +38,14 @@ The mission? No more frustration. Just smarter, faster parking — powered by AI
 | Capacitor        | iOS deployment bridge                           |
 | Expo             | Rapid dev, build, and preview                   |
 | Netlify          | Web version hosting                             |
+
+---
+
+
+## 📊 Our Impact
+
+- **250+ SEO-Optimized Pages** — auto-generated for better search rankings and discoverability  
+- **300+ Users** with **100+ Active Monthly Users** enjoying the platform regularly
 
 ---
 
