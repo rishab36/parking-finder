@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://parkingfinder.tech/sitemap.xml
+Sitemap: https://parkingfinder.tech/sitemap-image.xml

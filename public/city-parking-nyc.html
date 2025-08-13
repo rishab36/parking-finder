@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech</title>
+    <meta name="description" content="Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates.">
+    <meta name="keywords" content="city parking nyc, city parking new york, city parking locations, city parking booking">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://parkingfinder.tech/city-parking-nyc.html" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://parkingfinder.tech/city-parking-nyc.html" />
+    <meta property="og:title" content="City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech" />
+    <meta property="og:description" content="Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates." />
+    <meta property="og:image" content="https://parkingfinder.tech/logo.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://parkingfinder.tech/city-parking-nyc.html" />
+    <meta property="twitter:title" content="City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech" />
+    <meta property="twitter:description" content="Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates." />
+    <meta name="twitter:image" content="https://parkingfinder.tech/logo.png" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech",
+  "description": "Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Parking Finder",
+    "url": "https://parkingfinder.tech",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://parkingfinder.tech/logo.png"
+    }
+  },
+  "mainEntity": {
+    "@type": "Article",
+    "headline": "City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech",
+    "description": "Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates.",
+    "keywords": "city parking nyc, city parking new york, city parking locations, city parking booking",
+    "datePublished": "2025-08-13T11:06:05.187Z",
+    "dateModified": "2025-08-13T11:06:05.187Z",
+    "author": {
+      "@type": "Organization",
+      "name": "Parking Finder"
+    }
+  }
+}
+    </script>
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://parkingfinder.tech"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "City Parking NYC - Find & Book Parking Spots",
+      "item": "https://parkingfinder.tech/city-parking-nyc.html"
+    }
+  ]
+}
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://parkingfinder.tech/logo.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-color: #1f2937;
+            --light-text: #6b7280;
+            --background: #ffffff;
+            --light-background: #f3f4f6;
+            --border-color: #e5e7eb;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--background);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Header Styles */
+        .header {
+            background: #111827;
+            color: white;
+            padding: 1rem 0;
+            
+            margin-bottom: 2rem;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .nav-link:hover {
+            opacity: 0.8;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://parkingfinder.tech/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: var(--text-color);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 0.01em;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2.2rem auto;
+            opacity: 0.92;
+            line-height: 1.6;
+            letter-spacing: 0.01em;
+        }
+
+        /* Search Section */
+        .search-section {
+            background: var(--light-background);
+            padding: 2rem 0;
+            margin-top: -2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .search-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 1rem;
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.25rem;
+            font-size: 1rem;
+        }
+
+        .search-button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .search-button:hover {
+            background: var(--secondary-color);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 4rem 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Content Section */
+
+        /* Responsive Styles */
+        @media (max-width: 900px) {
+            .container {
+                max-width: 100%;
+                padding: 0 0.5rem;
+            }
+            .features {
+                padding: 2rem 0;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                background: #f8fafc;
+            }
+            .container {
+                padding: 0 0.5rem;
+            }
+            .header {
+                padding: 0.6rem 0;
+                margin-bottom: 1.5rem;
+                border-radius: 0 0 1.5rem 1.5rem;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            }
+            .nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.5rem 0;
+                width: 100%;
+            }
+            .nav-links {
+                flex-direction: column;
+                gap: 0.5rem;
+                width: 100%;
+                align-items: center;
+            }
+            .nav-link {
+                width: 100%;
+                text-align: center;
+                padding: 0.75rem 0;
+                border-radius: 0.5rem;
+                background: rgba(255,255,255,0.07);
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            .nav-link:not(:last-child) {
+                margin-bottom: 0.2rem;
+            }
+            .nav-logo {
+                font-size: 1.3rem;
+                margin-bottom: 0.3rem;
+            }
+            .nav-logo {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                text-align: center;
+                width: 100%;
+                padding-bottom: 0.2rem;
+            }
+            /* Only apply card backgrounds and extra styling for mobile */
+            .cta, .hero, .search-section, .features {
+                background: #fff;
+                border-radius: 1.2rem;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+                margin-bottom: 1.2rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .app-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                width: 100%;
+            }
+            .app-button {
+                width: 100%;
+                max-width: 320px;
+                justify-content: center;
+                font-size: 1.1rem;
+                padding: 1rem 0.5rem;
+                border-radius: 0.7rem;
+                box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            }
+        }
+        .content {
+            padding: 4rem 0;
+            background: var(--light-background);
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .content h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+            color: var(--light-text);
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .cta p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .app-buttons {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .app-button {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 1.5rem 3rem;
+            border-radius: 1rem;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .app-button:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .app-button i {
+            font-size: 2.5rem;
+        }
+
+        .app-button-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.3;
+            text-align: left;
+        }
+
+        .app-button-label {
+            font-size: 1rem;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .app-button-name {
+            font-size: 1.75rem;
+            font-weight: 600;
+        }
+
+        .app-store {
+            background: linear-gradient(135deg, #000000, #333333);
+        }
+
+        .play-store {
+            background: linear-gradient(135deg, #414141, #2d2d2d);
+        }
+
+        .website {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        }
+
+        @media (max-width: 768px) {
+            .cta {
+                padding: 4rem 1rem;
+            }
+
+            .cta h2 {
+                font-size: 2.5rem;
+            }
+
+            .cta p {
+                font-size: 1.25rem;
+            }
+
+            .app-buttons {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 1.5rem;
+                padding: 0 1rem;
+            }
+
+            .app-button {
+                width: 100%;
+                justify-content: center;
+                padding: 1.25rem 2rem;
+            }
+
+            .app-button i {
+                font-size: 2rem;
+            }
+
+            .app-button-name {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-color);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-link {
+            color: var(--light-text);
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            display: block;
+            transition: color 0.2s;
+        }
+
+        .footer-link:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: var(--light-text);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="https://parkingfinder.tech" class="nav-logo" style="display:flex;align-items:center;gap:0.5rem;text-decoration:none;color:white;font-size:1.5rem;font-weight:700;">
+  <img src="playstore.png" style="height:2.2rem;width:2.2rem;object-fit:contain;vertical-align:middle;border-radius:0.4rem;background:#fff;padding:2px;box-shadow:0 1px 4px #c7d7ee80;">
+  ParkingFinder.tech
+</a>
+            <div class="nav-links">
+                <a href="https://parkingfinder.tech/parking" class="nav-link">Parking</a>
+                <a href="https://parkingfinder.tech/ev-charging" class="nav-link">EV Charging</a>
+                <a href="https://parkingfinder.tech/gas-stations" class="nav-link">Gas Stations</a>
+                <a href="https://parkingfinder.tech/app" class="nav-link">Download App</a>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <section class="cta">
+        <div class="container">
+            <h2 class="animate">Ready to Find Parking?</h2>
+<p class="animate">
+    Download our app and start finding parking spots, EV charging stations, and gas stations near you.<br>
+    <span style="display:inline-block;margin-top:1rem;font-size:1.2rem;color:#dbeafe;font-weight:500;">
+        <i class="fas fa-badge-check" style="color:#10b981;"></i> 100% Free • No Ads • No Login Required
+    </span><br>
+    <span style="display:inline-block;margin-top:0.5rem;font-size:1.1rem;color:#d1fae5;">
+        Enjoy unlimited searches for parking, EV charging, and gas stations—absolutely free, forever!
+    </span>
+</p>
+            <div class="app-buttons animate">
+                <a href="https://apps.apple.com/us/app/parkingfinder-tech/id6746726849" class="app-button app-store">
+                    <i class="fab fa-apple"></i>
+                    <div class="app-button-text">
+                        <span class="app-button-label">Download on the</span>
+                        <span class="app-button-name">App Store</span>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=co.median.android.ljwerj" class="app-button play-store">
+                    <i class="fab fa-google-play"></i>
+                    <div class="app-button-text">
+                        <span class="app-button-label">GET IT ON</span>
+                        <span class="app-button-name">Google Play</span>
+                    </div>
+                </a>
+                <a href="https://Parkingfinder.tech" class="app-button website">
+                    <i class="fas fa-globe"></i>
+                    <div class="app-button-text">
+                        <span class="app-button-label">Visit our</span>
+                        <span class="app-button-name">Website</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="hero">
+        <div class="container">
+            <h1 class="animate">City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech</h1>
+            <p class="animate">Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates....</p>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Enter your location...">
+                <button class="search-button">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card animate">
+                    <i class="fas fa-map-marker-alt feature-icon"></i>
+                    <h3 class="feature-title">Find Nearby Spots</h3>
+                    <p>Locate parking spots, EV charging stations, and gas stations near you in real-time.</p>
+                </div>
+                <div class="feature-card animate">
+                    <i class="fas fa-bolt feature-icon"></i>
+                    <h3 class="feature-title">EV Charging</h3>
+                    <p>Find compatible charging stations and check availability before you arrive.</p>
+                </div>
+                <div class="feature-card animate">
+                    <i class="fas fa-gas-pump feature-icon"></i>
+                    <h3 class="feature-title">Gas Prices</h3>
+                    <p>Compare fuel prices at different stations and find the best deals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <div class="content-container animate">
+                <h2>City Parking NYC - Find & Book Parking Spots | ParkingFinder.tech</h2>
+                <p>Find and book parking with City Parking NYC using ParkingFinder.tech. Discover City Parking locations in New York. Real-time availability and competitive rates.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>ParkingFinder</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/about" class="footer-link">About Us</a></li>
+                        <li><a href="https://parkingfinder.tech/contact" class="footer-link">Contact</a></li>
+                        <li><a href="https://parkingfinder.tech/careers" class="footer-link">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/parking" class="footer-link">Parking</a></li>
+                        <li><a href="https://parkingfinder.tech/ev-charging" class="footer-link">EV Charging</a></li>
+                        <li><a href="https://parkingfinder.tech/gas-stations" class="footer-link">Gas Stations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/help" class="footer-link">Help Center</a></li>
+                        <li><a href="https://parkingfinder.tech/faq" class="footer-link">FAQ</a></li>
+                        <li><a href="https://parkingfinder.tech/support" class="footer-link">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/privacy" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="https://parkingfinder.tech/terms" class="footer-link">Terms of Service</a></li>
+                        <li><a href="https://parkingfinder.tech/cookies" class="footer-link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ParkingFinder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        });
+
+        document.querySelectorAll('.feature-card, .content-container, .cta h2, .cta p, .cta-button').forEach((el) => observer.observe(el));
+    </script>
+<script>
+  document.addEventListener('click', function(e) {
+    let el = e.target;
+    // If search button is clicked, redirect
+    if (el.classList && el.classList.contains('search-button')) {
+      e.preventDefault();
+      window.location.href = 'https://parkingfinder.tech';
+      return;
+    }
+    // Only act if an <a> was clicked (or a parent is an <a>)
+    while (el && el !== document.body) {
+      if (el.tagName === 'A') {
+        // Allow normal navigation for footer related links
+        if (el.closest('.related-pages-footer')) {
+          return;
+        }
+        if (el.classList.contains('play-store') || el.classList.contains('app-store')) {
+          return; // Allow normal behavior for app buttons
+        } else {
+          e.preventDefault();
+          window.location.href = 'https://parkingfinder.tech';
+          return;
+        }
+      }
+      el = el.parentElement;
+    }
+  }, true);
+  // Prevent search form submission
+  document.addEventListener('submit', function(e) {
+    if (e.target && e.target.classList && e.target.classList.contains('search-form')) {
+      e.preventDefault();
+      window.location.href = 'https://parkingfinder.tech';
+    }
+  }, true);
+</script>
+<footer class="related-pages-footer" style="margin-top:3rem;padding:2.5rem 0;background:linear-gradient(90deg, #f0f7ff 0%, #e0e7ef 100%);border-top:1px solid #e5e7eb;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div style="background:#fff;border-radius:2rem;box-shadow:0 8px 32px 0 rgba(31,41,55,0.13);padding:2.5rem 2rem 2rem 2rem;">
+      <h3 style="font-size:1.7rem;font-weight:800;margin-bottom:2.2rem;text-align:center;color:#1e293b;letter-spacing:-1px;text-shadow:0 2px 12px #e0e7ef;">🌟 Explore Top Parking Spots Nearby</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;">
+        
+                <a href="t-and-k-park.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">T & K Park - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="laz-parking.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">LAZ Parking - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="park-right.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">Park Right - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="abbey-parking.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">Abbey Parking (J & L Parking) - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="mpg-mp-times-square-garage.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">MPG – MP Times Square Garage - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="dock-parking-1540-broadway-garage.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">Dock Parking (1540 Broadway Garage LLC) - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="icon-parking-global-parking-llc-garage.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">Icon Parking – Global Parking LLC Garage - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="abm-parking-services-1633-broadway-garage.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">ABM Parking Services (1633 Broadway Garage) - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="glenwood-management-garages.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">Glenwood Management Garages - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+                <a href="59-61-w-36th-st-parking-corp.html" style="display:flex;align-items:center;gap:0.85rem;background:linear-gradient(90deg,#f0f7ff 60%,#e3eaf5 100%);border-radius:1.2rem;padding:1.2rem 1rem 1.2rem 1rem;text-decoration:none;box-shadow:0 2px 12px 0 rgba(16,30,54,0.08);transition:box-shadow 0.18s,transform 0.18s,background 0.18s;position:relative;overflow:hidden;border:1.5px solid #e0e7ef;cursor:pointer;outline:none;min-height:84px;">
+                  <span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#e0e7ef;border-radius:50%;margin-right:0.5rem;box-shadow:0 1px 4px #c7d7ee80;">
+                    <svg width="26" height="26" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="4"/><circle cx="7.5" cy="12" r="1.5"/><circle cx="16.5" cy="12" r="1.5"/></svg>
+                  </span>
+                  <span style="color:#0f172a;font-weight:700;font-size:1.08rem;line-height:1.3;letter-spacing:-0.2px;">59‑61 W 36th St. Parking Corp (iPark) - Find & Book Parking Spots</span>
+                  <span style="position:absolute;right:1.1rem;top:50%;transform:translateY(-50%);color:#2563eb;font-size:1.55rem;opacity:0.7;transition:opacity 0.15s;">→</span>
+                  <span style="position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(37,99,235,0.08) 0%,rgba(255,255,255,0) 100%);opacity:0;transition:opacity 0.18s;"></span>
+                </a>
+              
+      </div>
+      <style>
+        .related-pages-footer a:hover, .related-pages-footer a:focus {
+          box-shadow:0 6px 24px 0 rgba(37,99,235,0.13),0 1.5px 8px 0 #c7d7ee80;
+          background:linear-gradient(90deg,#e3eaf5 0%,#f0f7ff 100%);
+          transform:translateY(-2px) scale(1.03);
+        }
+        .related-pages-footer a:hover span:last-child,
+        .related-pages-footer a:focus span:last-child {
+          opacity:1;
+        }
+        @media (max-width: 700px) {
+          .related-pages-footer div[style*='grid-template-columns'] {
+            grid-template-columns:1fr;
+          }
+        }
+      </style>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

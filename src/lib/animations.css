@@ -1,0 +1,356 @@
+/* Fade in animation */
+@keyframes fade-in {
+  from { 
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+/* Delayed animations */
+.animate-fade-in.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animate-fade-in.delay-150 {
+  animation-delay: 0.15s;
+}
+
+.animate-fade-in.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-fade-in.delay-250 {
+  animation-delay: 0.25s;
+}
+
+.animate-fade-in.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.animate-fade-in.delay-350 {
+  animation-delay: 0.35s;
+}
+
+.animate-fade-in.delay-400 {
+  animation-delay: 0.4s;
+}
+
+/* Scale animation */
+@keyframes scale-in {
+  from { 
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s ease-out forwards;
+}
+
+/* Slide in from left */
+@keyframes slide-in {
+  from { 
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.4s ease-out forwards;
+}
+
+/* Enhanced click animations for interactive elements */
+@keyframes click-ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+@keyframes marker-bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes marker-click-feedback {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0.3);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 20px rgba(59, 130, 246, 0);
+  }
+}
+
+@keyframes button-click {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-marker-click {
+  animation: marker-bounce 0.6s ease-out;
+}
+
+.animate-marker-feedback {
+  animation: marker-click-feedback 0.6s ease-out;
+}
+
+.animate-button-click {
+  animation: button-click 0.2s ease-out;
+}
+
+.click-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.click-ripple::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.6);
+  transform: scale(0);
+  animation: click-ripple 0.6s linear;
+  pointer-events: none;
+}
+
+/* Button press animation */
+@keyframes button-press {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-button-press {
+  animation: button-press 0.2s ease-out;
+}
+
+/* Pulse effect for buttons */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+  }
+}
+
+.animate-pulse-button {
+  animation: pulse 2s infinite;
+}
+
+/* Map click feedback */
+@keyframes map-click {
+  0% {
+    transform: scale(1);
+    background-color: rgba(59, 130, 246, 0.2);
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: rgba(59, 130, 246, 0.4);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgba(59, 130, 246, 0.2);
+  }
+}
+
+.animate-map-click {
+  animation: map-click 0.3s ease-out;
+}
+
+/* Enhanced map marker animations */
+@keyframes spot-select {
+  0% {
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.7);
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
+    box-shadow: 0 0 0 15px rgba(251, 191, 36, 0.3);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    box-shadow: 0 0 0 30px rgba(251, 191, 36, 0);
+  }
+}
+
+.animate-spot-select {
+  animation: spot-select 0.8s ease-out;
+}
+
+/* Modern glassmorphic effect */
+.glassmorphic {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glassmorphic {
+  background: rgba(17, 24, 39, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom gradient backgrounds and hover effects */
+.gradient-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.gradient-primary:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+}
+
+.gradient-secondary {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.gradient-secondary:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+/* Modern card effect */
+.card-modern {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .card-modern {
+  background: rgba(17, 24, 39, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-modern:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px 0 rgba(31, 38, 135, 0.25);
+}
+
+/* Enhanced 3D button effect */
+.button-3d {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.button-3d:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.button-3d:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Interactive marker styles */
+.parking-spot-marker {
+  transition: all 0.3s ease;
+}
+
+.parking-spot-marker:hover {
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
+.highlighted-spot-marker {
+  z-index: 999;
+}
+
+/* Custom scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59, 130, 246, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(59, 130, 246, 0.5);
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(59, 130, 246, 0.7);
+}
+
+/* Map container enhancements */
+.map-container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Remove the gradient overlay that might be affecting the map */
+/* .map-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 49%, rgba(59, 130, 246, 0.05) 50%, transparent 51%);
+  pointer-events: none;
+  z-index: 1;
+} */

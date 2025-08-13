@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Charging Station Price | ParkingFinder</title>
+    <meta name="description" content="Compare prices at different EV charging stations. Find the most affordable charging rates and plan your charging stops efficiently.">
+    <meta name="keywords" content="ev charging station price, charging cost, ev charging rates, charging fees, charging price comparison, ev charging cost">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://parkingfinder.tech/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-color: #1f2937;
+            --light-text: #6b7280;
+            --background: #ffffff;
+            --light-background: #f3f4f6;
+            --border-color: #e5e7eb;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--background);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Header Styles */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .nav-link:hover {
+            opacity: 0.8;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://parkingfinder.tech/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+
+        /* Search Section */
+        .search-section {
+            background: var(--light-background);
+            padding: 2rem 0;
+            margin-top: -2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .search-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 1rem;
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.25rem;
+            font-size: 1rem;
+        }
+
+        .search-button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .search-button:hover {
+            background: var(--secondary-color);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 4rem 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 4rem 0;
+            background: var(--light-background);
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .content h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+            color: var(--light-text);
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .cta p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .app-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .app-button {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 1.5rem 3rem;
+            border-radius: 1rem;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .app-button:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .app-button i {
+            font-size: 2.5rem;
+        }
+
+        .app-button-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.3;
+            text-align: left;
+        }
+
+        .app-button-label {
+            font-size: 1rem;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .app-button-name {
+            font-size: 1.75rem;
+            font-weight: 600;
+        }
+
+        .app-store {
+            background: linear-gradient(135deg, #000000, #333333);
+        }
+
+        .play-store {
+            background: linear-gradient(135deg, #414141, #2d2d2d);
+        }
+
+        .website {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        }
+
+        @media (max-width: 768px) {
+            .cta {
+                padding: 4rem 1rem;
+            }
+
+            .cta h2 {
+                font-size: 2.5rem;
+            }
+
+            .cta p {
+                font-size: 1.25rem;
+            }
+
+            .app-buttons {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 1.5rem;
+                padding: 0 1rem;
+            }
+
+            .app-button {
+                width: 100%;
+                justify-content: center;
+                padding: 1.25rem 2rem;
+            }
+
+            .app-button i {
+                font-size: 2rem;
+            }
+
+            .app-button-name {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-color);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-link {
+            color: var(--light-text);
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            display: block;
+            transition: color 0.2s;
+        }
+
+        .footer-link:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: var(--light-text);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="https://parkingfinder.tech" class="nav-logo">
+                <i class="fas fa-parking"></i>
+                ParkingFinder
+            </a>
+            <div class="nav-links">
+                <a href="https://parkingfinder.tech/parking" class="nav-link">Parking</a>
+                <a href="https://parkingfinder.tech/ev-charging" class="nav-link">EV Charging</a>
+                <a href="https://parkingfinder.tech/gas-stations" class="nav-link">Gas Stations</a>
+                <a href="https://parkingfinder.tech/app" class="nav-link">Download App</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="animate">EV Charging Station Price | ParkingFinder</h1>
+            <p class="animate">Compare prices at different EV charging stations. Find the most affordable charging rates and plan your charging stops efficiently....</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <
+>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Enter your location...">
+                <button class="search-button">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card animate">
+                    <i class="fas fa-map-marker-alt feature-icon"></i>
+                    <h3 class="feature-title">Find Nearby Spots</h3>
+                    <p>Locate parking spots, EV charging stations, and gas stations near you in real-time.</p>
+                </div>
+                <div class="feature-card animate">
+                    <i class="fas fa-bolt feature-icon"></i>
+                    <h3 class="feature-title">EV Charging</h3>
+                    <p>Find compatible charging stations and check availability before you arrive.</p>
+                </div>
+                <div class="feature-card animate">
+                    <i class="fas fa-gas-pump feature-icon"></i>
+                    <h3 class="feature-title">Gas Prices</h3>
+                    <p>Compare fuel prices at different stations and find the best deals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <div class="content-container animate">
+                <h2>EV Charging Station Price | ParkingFinder</h2>
+                <p>Compare prices at different EV charging stations. Find the most affordable charging rates and plan your charging stops efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 class="animate">Ready to Find Parking?</h2>
+            <p class="animate">Download our app and start finding parking spots, EV charging stations, and gas stations near you.</p>
+            <div class="app-buttons animate">
+                <a href="https://apps.apple.com/us/app/parkingfinder-tech/id6746726849" class="app-button app-store">
+                    <i class="fab fa-apple"></i>
+                    <div class="app-button-text">
+                        <span class="app-button-label">Download on the</span>
+                        <span class="app-button-name">App Store</span>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=co.median.android.ljwerj" class="app-button play-store">
+                    <i class="fab fa-google-play"></i>
+                    <div class="app-button-text">
+                        <span class="app-button-label">GET IT ON</span>
+                        <span class="app-button-name">Google Play</span>
+                    </div>
+                </a>
+                <a href="https://Parkingfinder.tech" class="app-button website">
+                    <i class="fas fa-globe"></i>
+                    <div class="app-button-text">
+                        <span class="app-button-label">Visit our</span>
+                        <span class="app-button-name">Website</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>ParkingFinder</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/about" class="footer-link">About Us</a></li>
+                        <li><a href="https://parkingfinder.tech/contact" class="footer-link">Contact</a></li>
+                        <li><a href="https://parkingfinder.tech/careers" class="footer-link">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/parking" class="footer-link">Parking</a></li>
+                        <li><a href="https://parkingfinder.tech/ev-charging" class="footer-link">EV Charging</a></li>
+                        <li><a href="https://parkingfinder.tech/gas-stations" class="footer-link">Gas Stations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/help" class="footer-link">Help Center</a></li>
+                        <li><a href="https://parkingfinder.tech/faq" class="footer-link">FAQ</a></li>
+                        <li><a href="https://parkingfinder.tech/support" class="footer-link">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://parkingfinder.tech/privacy" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="https://parkingfinder.tech/terms" class="footer-link">Terms of Service</a></li>
+                        <li><a href="https://parkingfinder.tech/cookies" class="footer-link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ParkingFinder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        });
+
+        document.querySelectorAll('.feature-card, .content-container, .cta h2, .cta p, .cta-button').forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>
+
+
